@@ -1,3 +1,6 @@
+<img width="212" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/02e993fa-6d06-4156-9ed2-f7f4dbf03f58">
+
+
 # Data Science Accelerators 
 Accelerators are packaged automation tools using Jupyter Workspaces that simplify and streamline different parts of the data science process to remove speed bumps and accelerate results.
 
