@@ -10,6 +10,6 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 - scatterplot and bar chart cards that show the relationships between variables
 
 ## Video Demo
-[Video Demo of Data Profiler](https://img.youtube.com/vi/9CXoYW-wG-g&t=2588s/0.jpg)
+[Video Demo of Data Profiler](https://www.youtube.com/watch?v=9CXoYW-wG-g&t=2588s)
 
 
