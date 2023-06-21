@@ -13,3 +13,5 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 [Video Demo of Data Profiler](https://www.youtube.com/watch?v=9CXoYW-wG-g&t=2588s)
 
 
+## Questions?
+Contact datascienceSME@domo.com
