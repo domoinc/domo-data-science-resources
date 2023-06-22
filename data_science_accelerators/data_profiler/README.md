@@ -52,21 +52,21 @@ Notes:
 Below the Login widget in your notebook file, you should see four other widgets named General, Inference, Bias Profile, and Other. Follow the instructions below to fill in these widgets (note: some steps are required while others are optional). 
 
 **3a. General Widget**
-* *Page Name*: Specify the page name for the profiler output 
-* Tags: List tag names for the resources created during the profiler (optional)
-* Correlation Profile: Creates a dataflow that creates a correlation matrix between the numeric features of the dataset, and creates a card to display this matrix (optional)
-* Histogram Profile: Creates a histogram for each feature in the dataset (optional)
+* *Page Name:* Specify the page name for the profiler output 
+* *Tags:* List tag names for the resources created during the profiler (optional)
+* *Correlation Profile:* Creates a dataflow that creates a correlation matrix between the numeric features of the dataset, and creates a card to display this matrix (optional)
+* *Histogram Profile:* Creates a histogram for each feature in the dataset (optional)
 
 <img width="480" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/579a0cab-320c-4815-baa2-856ee6751ef1">
 
 **3b. Inference Widget**
-
-**Optional:** Select the dependent variable / target of the inference, you can also select the inference type. Once selected, you can select the following features:
-* *Feature Engineering Flow* – creates a simple dataflow that maps the source dataset to a new set, which is then used in all subsequent card building / dataflows. While this selection doesn’t actually do any feature engineering, it creates a flow at the top of the pipeline which you can edit
-* *Validation Flow* – Sets up a validation dataflow and accompanying webform that can be used to validate incoming data (based on the criterea of the webform)
-* *Model Flow* – Sets up a dataflow with a simple model using the Scripting Tiles. Similar to the Feature Engineering Flow, this is more of a template for you to edit afterwards
-* *Scatterplot Profile* – This feature creates scatterplots for the dependent variable vs all other columns in the dataset
-* *Boxplot Profile* – This feature creates boxplots for the dependent variable vs all other columns in the dataset
+* *Dependent Variable:* Select the dependent variable, which will be the target of the subsequent inference
+* *Inference Type:* Select the inference type
+* *Feature Engineering Flow:* Creates a simple dataflow that maps the source dataset to a new set, which is then used in all subsequent card building / dataflows. While this selection doesn’t actually do any feature engineering, it creates a flow at the top of the pipeline which you can edit
+* *Validation Flow:* Sets up a validation dataflow and accompanying webform that can be used to validate incoming data (based on the criterea of the webform)
+* *Model Flow:* Sets up a dataflow with a simple model using the Scripting Tiles. Similar to the Feature Engineering Flow, this is more of a template for you to edit afterwards
+* *Scatterplot Profile:* This feature creates scatterplots for the dependent variable vs all other columns in the dataset
+* *Boxplot Profile:* This feature creates boxplots for the dependent variable vs all other columns in the dataset
 
 <img width="499" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/1bd43edc-f136-47ce-be23-cced9a5d9a50">
 
