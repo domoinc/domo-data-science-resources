@@ -42,6 +42,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 
 <img width="614" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e6d382cc-3d10-4a37-8e6d-0a34a068c889">
 
+
 **NOTES:**
 * The password field is cleared and deleted from memory after logging in, so you’ll need to re-enter your password (and re-login) if you run the profiler again with a different dataset
 
