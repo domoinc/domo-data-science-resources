@@ -59,8 +59,7 @@ Below the Login widget in your notebook file, you should see four other widgets 
 
 <img width="480" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/579a0cab-320c-4815-baa2-856ee6751ef1">
 
-**3b. Inference Widget**
-Note: Filling in this widget is optional 
+**3b. Inference Widget** (note: Filling in this widget is optional) 
 * *Dependent Variable:* Select the dependent variable, which will be the target of the subsequent inference
 * *Inference Type:* Select the inference type
 * *Feature Engineering Flow:* Creates a simple dataflow that maps the source dataset to a new set, which is then used in all subsequent card building / dataflows. While this selection doesn’t actually do any feature engineering, it creates a flow at the top of the pipeline which you can edit
