@@ -29,7 +29,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 7. Add your login info and dataset ID, and click Login
 8. Select the features you wish to run, and a page name for the output, and click Run Scaffolding
 
-### Step 2 – Fill Out the Login Widget
+### Step 2: Fill Out the Login Widget
 
 Fill out the login widget with your instance name, email, password, and the dataset ID you are running the profiler on. If your instance doesn't support Direct Sign-On, select the SSO option, and enter your session cookie instead of your email and password. You can find the session cookie with the following steps:
 1. Login into the instance in a separate window
@@ -38,7 +38,7 @@ Fill out the login widget with your instance name, email, password, and the data
 4. Expand the *Cookies* menu on the left side, and select the instance URL
 5. Find the cookie named "DA-SID-***" (or something similar), and copy the value
 
-After entering your Direct/SSO login information, click *Login*, and you should see “Login Successful” near the bottom of the form.
+After entering your Direct/SSO login information, click *Login*, and you should see “Login Successful” near the bottom of the widget.
 
 
 ## Questions?
