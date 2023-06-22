@@ -51,7 +51,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 
 Below the Login widget in your notebook file, you should see four other widgets named General, Inference, Bias Profile, and Other. Follow the instructions below to fill in these widgets (note: some steps are required while others are optional). 
 
-#### General Widget
+#### <u>General Widget</u>
   **Required:** Specify the page name for the profiler output
 
   **Optional:** List tag names for the resources created during the profiler, and select the correlation and histogram profile features
