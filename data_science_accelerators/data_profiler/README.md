@@ -14,7 +14,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 
 ## Instructions
 
-### Step 1: Set-up
+### Step 1: Set-Up
 1a. Download the ```DataProfilerGUI_v5.ipynb``` notebook file by going [here](https://github.com/domoinc/domo-data-science-resources/blob/main/data_science_accelerators/data_profiler/DataProfilerGUI_v5.ipynb)
 
 1b. In your Domo instance, create a Jupyter workspace that uses a **Python** kernel. See [here](https://domo-support.domo.com/s/article/36004740075?language=en_US#creating_workspace) for additional help.
@@ -29,7 +29,16 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 7. Add your login info and dataset ID, and click Login
 8. Select the features you wish to run, and a page name for the output, and click Run Scaffolding
 
+### Step 2 – Fill Out the Login Widget
 
+Fill out the login widget with your instance name, email, password, and the dataset ID you are running the profiler on. If your instance doesn't support Direct Sign-On, select the SSO option, and enter your session cookie instead of your email and password. You can find the session cookie with the following steps:
+1. Login into the instance in a separate window
+2. Open the browser's developer tools (you can usually do this by right-clicking anywhere on the page and clicking *inspect*)
+3. Select the *Application* tab
+4. Expand the *Cookies* menu on the left side, and select the instance URL
+5. Find the cookie named "DA-SID-***" (or something similar), and copy the value
+
+After entering your Direct/SSO login information, click *Login*, and you should see “Login Successful” near the bottom of the form.
 
 
 ## Questions?
