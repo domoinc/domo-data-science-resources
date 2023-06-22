@@ -52,11 +52,12 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 Below the Login widget in your notebook file, you should see four other widgets named General, Inference, Bias Profile, and Other. Follow the instructions below to fill in these widgets (note: some steps are required while others are optional). 
 
 <u>**General Widget**</u>
+
 **Required:** Specify the page name for the profiler output
 
-  **Optional:** List tag names for the resources created during the profiler, and select the correlation and histogram profile features
-  * *Correlation Profile* – creates a dataflow that creates a correlation matrix between the numeric features of the dataset, and creates a card to display this matrix
-  * *Histogram Profile* – creates a histogram for each feature in the dataset
+**Optional:** List tag names for the resources created during the profiler, and select the correlation and histogram profile features
+* *Correlation Profile* – creates a dataflow that creates a correlation matrix between the numeric features of the dataset, and creates a card to display this matrix
+* *Histogram Profile* – creates a histogram for each feature in the dataset
 
 ![step2](./imgs/step2.png)
 
