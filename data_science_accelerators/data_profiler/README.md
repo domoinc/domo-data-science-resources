@@ -51,15 +51,15 @@ Notes:
 
 Below the Login widget in your notebook file, you should see four other widgets named General, Inference, Bias Profile, and Other. Follow the instructions below to fill in these widgets (note: some steps are required while others are optional). 
 
-3a. General Widget
-* Page Name: Specify the page name for the profiler output 
+**3a. General Widget**
+* *Page Name*: Specify the page name for the profiler output 
 * Tags: List tag names for the resources created during the profiler (optional)
 * Correlation Profile: Creates a dataflow that creates a correlation matrix between the numeric features of the dataset, and creates a card to display this matrix (optional)
 * Histogram Profile: Creates a histogram for each feature in the dataset (optional)
 
 <img width="480" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/579a0cab-320c-4815-baa2-856ee6751ef1">
 
-3b. Inference Widget
+**3b. Inference Widget**
 
 **Optional:** Select the dependent variable / target of the inference, you can also select the inference type. Once selected, you can select the following features:
 * *Feature Engineering Flow* – creates a simple dataflow that maps the source dataset to a new set, which is then used in all subsequent card building / dataflows. While this selection doesn’t actually do any feature engineering, it creates a flow at the top of the pipeline which you can edit
@@ -70,12 +70,12 @@ Below the Login widget in your notebook file, you should see four other widgets 
 
 <img width="499" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/1bd43edc-f136-47ce-be23-cced9a5d9a50">
 
-3c. Bias Profile Widget
+**3c. Bias Profile Widget**
 
 <img width="493" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e693efa2-61b9-4dc7-bacb-72549979ba14">
 
 
-3d. Other Widget 
+**3d. Other Widget** 
 
 <img width="497" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/d486813a-1e98-43b5-b5f4-594d6653e1e0">
 
