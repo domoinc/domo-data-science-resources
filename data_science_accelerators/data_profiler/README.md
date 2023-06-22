@@ -29,9 +29,9 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
   <img width="568" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/07384295-b21b-49ff-bf1d-7c3e852f4eab">
 
 
-### Step 2: Fill Out the Login Widget
+### Step 2: Fill In the Login Widget
 
-2a. Fill out the login widget with your Domo instance name (without the “.domo.com”), your email associated with your Domo instance, your password associated with your Domo instance, and the dataset ID you are running the profiler on. If your instance doesn't support Direct Sign-On, select the SSO option, and enter your session cookie instead of your email and password. You can find the session cookie with the following steps:
+2a. Fill in the login widget with your Domo instance name (without the “.domo.com”), your email associated with your Domo instance, your password associated with your Domo instance, and the dataset ID you are running the profiler on. If your instance doesn't support Direct Sign-On, select the SSO option, and enter your session cookie instead of your email and password. You can find the session cookie with the following steps:
   1. Login into the instance in a separate window
   2. Open the browser's developer tools (you can usually do this by right-clicking anywhere on the page and clicking *inspect*)
   3. Select the *Application* tab
@@ -45,6 +45,29 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 
 **NOTES:**
 * The password field is cleared and deleted from memory after logging in, so you’ll need to re-enter your password (and re-login) if you run the profiler again with a different dataset
+
+
+### Step 3: Fill in Other Widgets
+
+Below the Login widget in your notebook file, you should see four other widgets named General, Inference, Bias Profile, and Other. Follow the instructions below to fill in these widgets (note: some steps are required while others are optional). 
+
+#### General
+**Required:** Specify the page name for the profiler output
+
+**Optional:** List tag names for the resources created during the profiler, and select the correlation and histogram profile features
+* *Correlation Profile* – creates a dataflow that creates a correlation matrix between the numeric features of the dataset, and creates a card to display this matrix
+* *Histogram Profile* – creates a histogram for each feature in the dataset
+
+![step2](./imgs/step2.png)
+
+## Step 3 – Inference
+
+**Optional:** Select the dependent variable / target of the inference, you can also select the inference type. Once selected, you can select the following features:
+* *Feature Engineering Flow* – creates a simple dataflow that maps the source dataset to a new set, which is then used in all subsequent card building / dataflows. While this selection doesn’t actually do any feature engineering, it creates a flow at the top of the pipeline which you can edit
+* *Validation Flow* – Sets up a validation dataflow and accompanying webform that can be used to validate incoming data (based on the criterea of the webform)
+* *Model Flow* – Sets up a dataflow with a simple model using the Scripting Tiles. Similar to the Feature Engineering Flow, this is more of a template for you to edit afterwards
+* *Scatterplot Profile* – This feature creates scatterplots for the dependent variable vs all other columns in the dataset
+* *Boxplot Profile* – This feature creates boxplots for the dependent variable vs all other columns in the dataset
 
 ## Questions?
 Contact datascienceSME@domo.com
