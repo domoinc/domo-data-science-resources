@@ -31,15 +31,19 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 
 ### Step 2: Fill Out the Login Widget
 
-Fill out the login widget with your instance name, email, password, and the dataset ID you are running the profiler on. If your instance doesn't support Direct Sign-On, select the SSO option, and enter your session cookie instead of your email and password. You can find the session cookie with the following steps:
-1. Login into the instance in a separate window
-2. Open the browser's developer tools (you can usually do this by right-clicking anywhere on the page and clicking *inspect*)
-3. Select the *Application* tab
-4. Expand the *Cookies* menu on the left side, and select the instance URL
-5. Find the cookie named "DA-SID-***" (or something similar), and copy the value
+2a. Fill out the login widget with your Domo instance name (without the “.domo.com”), your email associated with your Domo instance, your password associated with your Domo instance, and the dataset ID you are running the profiler on. If your instance doesn't support Direct Sign-On, select the SSO option, and enter your session cookie instead of your email and password. You can find the session cookie with the following steps:
+  1. Login into the instance in a separate window
+  2. Open the browser's developer tools (you can usually do this by right-clicking anywhere on the page and clicking *inspect*)
+  3. Select the *Application* tab
+  4. Expand the *Cookies* menu on the left side, and select the instance URL
+  5. Find the cookie named "DA-SID-***" (or something similar), and copy the value
 
-After entering your Direct/SSO login information, click *Login*, and you should see “Login Successful” near the bottom of the widget.
+2b. After entering your Direct/SSO login information, click *Login*. If successful, the phrase “Login Successful” should appear below the Login widget.
 
+<img width="614" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e6d382cc-3d10-4a37-8e6d-0a34a068c889">
+
+**NOTES:**
+* The password field is cleared and deleted from memory after logging in, so you’ll need to re-enter your password (and re-login) if you run the profiler again with a different dataset
 
 ## Questions?
 Contact datascienceSME@domo.com
