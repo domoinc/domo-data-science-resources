@@ -26,8 +26,6 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 1e. Run the cells in this notebook file by selecting **Run > Run All Cells**. If the cells ran correctly, when you scroll down to nearly the bottom of the notebook file, you should see a Login widget (pictured below).
   <img width="568" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/07384295-b21b-49ff-bf1d-7c3e852f4eab">
 
-7. Add your login info and dataset ID, and click Login
-8. Select the features you wish to run, and a page name for the output, and click Run Scaffolding
 
 ### Step 2: Fill Out the Login Widget
 
