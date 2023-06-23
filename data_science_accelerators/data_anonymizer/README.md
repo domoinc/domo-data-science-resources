@@ -8,7 +8,8 @@ The Data Anonymizer Accelerator creates an anonymized version of your dataset. T
 
 <img width="600" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/0ff99871-ed66-4454-a9fa-f1fbc7bc2e9d">
 <img width="750" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/06ffabc0-4978-4c4d-9f61-51cc2d97ee87">
-<img width="1141" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/a43996b6-259b-4032-8bd3-48b0f9aa7d9d">
+<img width="1143" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/a510bdba-79a0-4760-9baa-cde6ea097907">
+
 
 
 
