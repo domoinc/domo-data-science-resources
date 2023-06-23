@@ -5,9 +5,9 @@
 
 ## Overview 
 The Data Profiler Accelerator conducts an automated exploratory analysis of all variables in your dataset and then creates a Domo dashboard, which can include the following types of cards: 
-- correlation matrix card that shows the correlations between variables;
-- histogram and bar chart cards that show the distribution of variables; and
-- scatterplot and bar chart cards that show the relationships between variables
+- Correlation matrix card that shows the correlations between variables;
+- Histogram and bar chart cards that show the distribution of variables; and
+- Scatterplot and bar chart cards that show the relationships between variables
 
 <img width="1099" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/eb67cba8-0fed-436c-8ccd-5378f547aa9d">
 
