@@ -6,6 +6,10 @@
 
 The Data Anonymizer Accelerator creates an anonymized version of your dataset. The anonymized dataset maintains the aggregate characteristics of your dataset (i.e., correlations between and distributions of variables) without revealing information about observations within your dataset
 
+<img width="600" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/0ff99871-ed66-4454-a9fa-f1fbc7bc2e9d">
+<img width="750" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/06ffabc0-4978-4c4d-9f61-51cc2d97ee87">
+
+
 ## Instructions 
 1. Download the ```anonymizer_v1.0.6.tar``` file by going [here](https://github.com/domoinc/domo-data-science-resources/blob/main/data_science_accelerators/data_anonymizer/anonymizer_v1.0.6.tar)
 2. In your Domo instance, create a Jupyter workspace that uses a **R** kernel. See [here](https://domo-support.domo.com/s/article/36004740075?language=en_US#creating_workspace) for additional help.
