@@ -69,6 +69,9 @@ Below the Login widget in your notebook file, you should see four other widgets 
 
 <img width="499" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/1bd43edc-f136-47ce-be23-cced9a5d9a50">
 
+
+
+
 **3c. Bias Profile Widget** (note: filling in this widget is optional) 
 
 The Bias Profile calculates metrics similar to those used with AWS SageMaker Clarify, a tool for detecting and explaining data bias. This widget creates a dataflow that calculates the bias metrics and a few cards to visualize the results. A separate card is also created that explain the various metrics. **This widget is only available for categorical inferences.**
