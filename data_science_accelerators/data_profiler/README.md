@@ -64,25 +64,27 @@ Below the Login widget in your notebook file, you should see four other widgets 
 * *Feature Engineering Flow:* Creates a simple dataflow that maps the source dataset to a new set, which is then used in all subsequent card building / dataflows. While this selection doesn’t actually do any feature engineering, it creates a flow at the top of the pipeline which you can edit
 * *Validation Flow:* Sets up a validation dataflow and accompanying webform that can be used to validate incoming data (based on the criterea of the webform)
 * *Model Flow:* Sets up a dataflow with a simple model using the Scripting Tiles. Similar to the Feature Engineering Flow, this is more of a template for you to edit afterwards
-* *Scatterplot Profile:* This feature creates scatterplots for the dependent variable vs all other columns in the dataset
-* *Boxplot Profile:* This feature creates boxplots for the dependent variable vs all other columns in the dataset
+* *Scatterplot Profile:* This feature creates scatterplots for the dependent variable vs all variables in your dataset
+* *Boxplot Profile:* This feature creates boxplots for the dependent variable vs all other variables in your dataset
 
 <img width="499" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/1bd43edc-f136-47ce-be23-cced9a5d9a50">
-
-
 
 
 **3c. Bias Profile Widget** (note: filling in this widget is optional) 
 
 The Bias Profile calculates metrics similar to those used with AWS SageMaker Clarify, a tool for detecting and explaining data bias. This widget creates a dataflow that calculates the bias metrics and a few cards to visualize the results. A separate card is also created that explain the various metrics. **This widget is only available for categorical inferences.**
 
-* In order for the Bias Profile Widget to work, you need to fill in the *Dependent Variable* and *Inference Type* fields in the Inference Widget (see Section 3b. Inference Widget above). *Inference Type* should be set to "Categorical". 
+* In order for the Bias Profile Widget to work, you need to fill in the *Dependent Variable* and *Inference Type* fields in the Inference Widget (see Section 3b. Inference Widget above). *Inference Type* should be set to "Categorical"
 * *Positive Label:* Indicate the “positive” label of your dependent variable  
 
 <img width="493" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e693efa2-61b9-4dc7-bacb-72549979ba14">
 
 
-**3d. Other Widget** 
+**3d. Other Widget** (note: filling in this widget is optional)
+
+This widget creates line charts for a selected variable vs other variables in your dataset 
+
+* *Time Series Plot X-Axis:* Select a variable that will be plotted on the x-axis of all the line charts (frequently this is a time variable, but you can technically specify any numeric variable)
 
 <img width="497" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/d486813a-1e98-43b5-b5f4-594d6653e1e0">
 
