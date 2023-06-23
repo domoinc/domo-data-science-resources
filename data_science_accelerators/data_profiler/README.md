@@ -29,7 +29,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
   <img width="568" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/07384295-b21b-49ff-bf1d-7c3e852f4eab">
 
 
-### Step 2: Fill In the Login Widget
+### Step 2: Fill in the Login Widget
 
 2a. Fill in the login widget with your Domo instance name (without the “.domo.com”), your email associated with your Domo instance, your password associated with your Domo instance, and the dataset ID you are running the profiler on. If your instance doesn't support Direct Sign-On, select the SSO option, and enter your session cookie instead of your email and password. You can find the session cookie with the following steps:
   1. Login into the instance in a separate window
@@ -46,12 +46,12 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 Note: The password field is cleared and deleted from memory after logging in, so you’ll need to re-enter your password (and re-login) if you run the profiler again with a different dataset
 
 
-### Step 3: Fill in Other Widgets
+### Step 3: Fill in Remaining Widgets
 
 Below the Login widget in your notebook file, you should see four other widgets named General, Inference, Bias Profile, and Other. Follow the instructions below to fill in these widgets (note: some steps are required while others are optional). 
 
 **3a. General Widget**
-* *Page Name:* Specify the page name for the profiler output 
+* *Page Name:* Specify the dashboard name for the profiler output 
 * *Tags:* List tag names for the resources created during the profiler (optional)
 * *Correlation Profile:* Creates a dataflow that creates a correlation matrix between the numeric features of the dataset, and creates a card to display this matrix (optional)
 * *Histogram Profile:* Creates a histogram for each feature in the dataset (optional)
@@ -87,6 +87,12 @@ This widget creates line charts for a selected variable vs other variables in yo
 * *Time Series Plot X-Axis:* Select a variable that will be plotted on the x-axis of all the line charts (frequently this is a datetime variable, but you can technically specify any numeric variable)
 
 <img width="497" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/d486813a-1e98-43b5-b5f4-594d6653e1e0">
+
+
+
+### Step 4: Run the Profiler
+
+4a. After you have filled in the widgets described in Step 3, click *Run Profile* at the bottom of the notebook file. Similar to the login process, you will see some output appear in the notebook file. When you see the message “finished scaffolding”, the profiler has finished running. A dashboard that displays all of the profiler output should now be availabe in your Domo instance.
 
 
 
