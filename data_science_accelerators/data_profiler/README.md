@@ -43,8 +43,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 <img width="614" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e6d382cc-3d10-4a37-8e6d-0a34a068c889">
 
 
-Notes:
-* The password field is cleared and deleted from memory after logging in, so you’ll need to re-enter your password (and re-login) if you run the profiler again with a different dataset
+Note: The password field is cleared and deleted from memory after logging in, so you’ll need to re-enter your password (and re-login) if you run the profiler again with a different dataset
 
 
 ### Step 3: Fill in Other Widgets
@@ -71,6 +70,7 @@ Below the Login widget in your notebook file, you should see four other widgets 
 <img width="499" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/1bd43edc-f136-47ce-be23-cced9a5d9a50">
 
 **3c. Bias Profile Widget**
+* This feature is only available for categorical inferences (as determined by the selections in the previous step). The Bias Profile calculates metrics similar to those used with AWS SageMaker Clarify, a tool for detecting and explaining data bias. After selecting the “positive” label from the dataset’s target column, this feature creates a dataflow that calculates the bias metrics, and a few cards to visualize the results. A separate card is also created that explain the various metrics.
 
 <img width="493" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e693efa2-61b9-4dc7-bacb-72549979ba14">
 
