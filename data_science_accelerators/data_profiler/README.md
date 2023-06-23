@@ -73,7 +73,8 @@ Below the Login widget in your notebook file, you should see four other widgets 
 
 The Bias Profile calculates metrics similar to those used with AWS SageMaker Clarify, a tool for detecting and explaining data bias. This widget creates a dataflow that calculates the bias metrics and a few cards to visualize the results. A separate card is also created that explain the various metrics. **This widget is only available for categorical inferences.**
 
-* After selecting the “positive” label from the dataset’s target column, 
+* In order for the Bias Profile Widget to work, you need to fill in the *Dependent Variable* and *Inference Type* fields in the Inference Widget (see Section 3b. Inference Widget above). *Inference Type* should be set to "Categorical". 
+* *Positive Label:* Indicate the “positive” label of your dependent variable  
 
 <img width="493" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e693efa2-61b9-4dc7-bacb-72549979ba14">
 
