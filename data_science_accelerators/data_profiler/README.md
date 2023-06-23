@@ -84,7 +84,7 @@ The Bias Profile calculates metrics similar to those used with AWS SageMaker Cla
 
 This widget creates line charts for a selected variable vs other variables in your dataset 
 
-* *Time Series Plot X-Axis:* Select a variable that will be plotted on the x-axis of all the line charts (frequently this is a time variable, but you can technically specify any numeric variable)
+* *Time Series Plot X-Axis:* Select a variable that will be plotted on the x-axis of all the line charts (frequently this is a datetime variable, but you can technically specify any numeric variable)
 
 <img width="497" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/d486813a-1e98-43b5-b5f4-594d6653e1e0">
 
