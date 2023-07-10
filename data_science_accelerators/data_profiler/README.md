@@ -9,9 +9,9 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 - Histogram and bar chart cards that show the distribution of variables
 - Scatterplot and bar chart cards that show the relationships between variables
 
-<img width="1099" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/eb67cba8-0fed-436c-8ccd-5378f547aa9d">
+<img width="900" alt="image" src="https://github.com/domoinc/domo-data-science-resources/blob/d97f9a06e3fc22a9f9b08aedd4c2f5438dec7386/data_science_accelerators/images/data_profiler_correlations.png">
 
-<img width="600" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/5305b37c-d8e1-448a-8edf-9f9be8958c91">
+<img alt="image" src="https://github.com/domoinc/domo-data-science-resources/blob/d97f9a06e3fc22a9f9b08aedd4c2f5438dec7386/data_science_accelerators/images/data_profiler_histograms_barchart.png">
 
 
 
