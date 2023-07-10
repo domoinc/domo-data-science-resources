@@ -1,4 +1,4 @@
-<img width="212" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/693c8327-feee-40d3-a7b6-4b3f2e1cf434">
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/02297d262c1a5b6113e88554483f0d872b2086ba/data_science_accelerators/images/Domo_logo.png" alt="Image Description" width="200">
 
 # Data Anonymizer Accelerator
 
