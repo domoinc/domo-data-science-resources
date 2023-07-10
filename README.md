@@ -1,5 +1,4 @@
-<img width="212" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/f127bbcd-17c6-4448-a3d8-c95af7ad7bcb">
-
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/02297d262c1a5b6113e88554483f0d872b2086ba/data_science_accelerators/images/Domo_logo.png" alt="Image Description" width="200">
 
 # Domo Data Science Resources
 
