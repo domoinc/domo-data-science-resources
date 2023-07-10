@@ -1,4 +1,4 @@
-<img width="212" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/64b7e595-a5ef-41bb-bac6-81f482f5d177">
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/02297d262c1a5b6113e88554483f0d872b2086ba/data_science_accelerators/images/Domo_logo.png" alt="Image Description" width="200">
 
 
 # Data Profiler Accelerator
