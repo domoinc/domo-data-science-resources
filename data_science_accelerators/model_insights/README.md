@@ -4,11 +4,20 @@
 
 ## Overview 
 The Model Insights Accelerator creates a comprehensive dashboard that displays the following model insights: 
-- Live model performance evaluation
-- Model monitoring (monitors overall and feature drift as well as proper model pipeline function)
+- **Overview page**: displays model name, model type, model class, model train date, insights last update, & model pipeline function
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/b7b1cf8e12a1fef47ff28cdb316d300c48b1e629/data_science_accelerators/images/Model%20Insights%20Overview.jpg" alt="Image Description">
+
+- **Monitoring page**: displays current and historical prediction accuracy metrics (accuracy, F1, precision, recall, specificity, confusion matrix) and data drift (both overall and feature drift)
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/b7b1cf8e12a1fef47ff28cdb316d300c48b1e629/data_science_accelerators/images/Model%20Insights%20Monitoring.jpg" alt="Image Description">
+
 - Feature importance and correlations
 - Insights into individual predictions
 - Training performance evaluation
+- Live model performance evaluation
+
+
+
+
 
 ## Walkthrough Video
 Watch this [walkthrough video](https://drive.google.com/file/d/1C7ssyocGBzC-ahXOCMODI8acta28yPHY/view) which shows how to prepare for and use the Model Insights Accelerator.
