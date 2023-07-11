@@ -32,7 +32,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 1d. In your running Jupyter workspace, upload the ```.ipynb``` notebook file downloaded in step 1 by selecting the **Upload Files** button located in the left panel of the workspace. Open the ```.ipynb``` notebook file by selecting the file, which should be listed in the file browser in the left panel of the workspace.
 
 1e. Run the cells in this notebook file by selecting **Run > Run All Cells**. If the cells ran correctly, when you scroll down to nearly the bottom of the notebook file, you should see a Login widget (pictured below).
-  <img width="568" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/07384295-b21b-49ff-bf1d-7c3e852f4eab">
+
 
 
 ### Step 2: Fill in the Login Widget
@@ -46,7 +46,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 
 2b. After entering your Direct/SSO login information, click *Login*. If successful, the phrase “Login Successful” should appear below the Login widget.
 
-<img width="614" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e6d382cc-3d10-4a37-8e6d-0a34a068c889">
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/b417cb99fa666322b7df72056bf6dbcb92b6aeb1/data_science_accelerators/images/data_profiler_step2.png" alt="Image Description" width="500">
 
 
 Note: The password field is cleared and deleted from memory after logging in, so you’ll need to re-enter your password (and re-login) if you run the profiler again with a different dataset
@@ -62,7 +62,7 @@ Below the Login widget in your notebook file, you should see four other widgets 
 * *Correlation Profile:* Creates a dataflow that creates a correlation matrix between the numeric features of the dataset, and creates a card to display this matrix (optional)
 * *Histogram Profile:* Creates a histogram for each feature in the dataset (optional)
 
-<img width="480" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/579a0cab-320c-4815-baa2-856ee6751ef1">
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/b417cb99fa666322b7df72056bf6dbcb92b6aeb1/data_science_accelerators/images/data_profiler_step3a.png" alt="Image Description" width="500">
 
 **3b. Inference Widget** (note: filling in this widget is optional) 
 * *Dependent Variable:* Select the dependent variable, which will be the target of the subsequent inference
@@ -73,7 +73,7 @@ Below the Login widget in your notebook file, you should see four other widgets 
 * *Scatterplot Profile:* This feature creates scatterplots for the dependent variable vs all variables in your dataset
 * *Boxplot Profile:* This feature creates boxplots for the dependent variable vs all other variables in your dataset
 
-<img width="499" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/1bd43edc-f136-47ce-be23-cced9a5d9a50">
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/b417cb99fa666322b7df72056bf6dbcb92b6aeb1/data_science_accelerators/images/data_profiler_step3b.png" alt="Image Description" width="500">
 
 
 **3c. Bias Profile Widget** (note: filling in this widget is optional) 
@@ -83,7 +83,7 @@ The Bias Profile calculates metrics similar to those used with AWS SageMaker Cla
 * In order for the Bias Profile Widget to work, you need to fill in the *Dependent Variable* and *Inference Type* fields in the Inference Widget (see Section 3b. Inference Widget above). *Inference Type* should be set to "Categorical"
 * *Positive Label:* Indicate the “positive” label of your dependent variable  
 
-<img width="493" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/e693efa2-61b9-4dc7-bacb-72549979ba14">
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/b417cb99fa666322b7df72056bf6dbcb92b6aeb1/data_science_accelerators/images/data_profiler_step3c.png" alt="Image Description" width="500">
 
 
 **3d. Other Widget** (note: filling in this widget is optional)
@@ -92,8 +92,7 @@ This widget creates line charts for a selected variable vs other variables in yo
 
 * *Time Series Plot X-Axis:* Select a variable that will be plotted on the x-axis of all the line charts (frequently this is a datetime variable, but you can technically specify any numeric variable)
 
-<img width="497" alt="image" src="https://github.com/domoinc/domo-data-science-resources/assets/123829195/d486813a-1e98-43b5-b5f4-594d6653e1e0">
-
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/b417cb99fa666322b7df72056bf6dbcb92b6aeb1/data_science_accelerators/images/data_profiler_step3d.png" alt="Image Description" width="500">
 
 
 ### Step 4: Run the Profiler
