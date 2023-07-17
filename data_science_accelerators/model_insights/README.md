@@ -10,7 +10,7 @@ The Model Insights Accelerator creates a comprehensive dashboard that displays t
 - **Overview page**: displays model name, model type, model class, model train date, insights last update, & model pipeline function
 <img src="https://github.com/domoinc/domo-data-science-resources/blob/b7b1cf8e12a1fef47ff28cdb316d300c48b1e629/data_science_accelerators/images/Model%20Insights%20Overview.jpg" alt="Image Description" width="1000">
 
-- **Monitoring page**: displays current and historical prediction accuracy metrics (accuracy, F1, precision, recall, specificity, confusion matrix) & data drift (both overall and feature drift)
+- **Monitoring page**: displays current and historical prediction accuracy metrics (**binary classification model metrics**: accuracy, F1, precision, recall, specificity, confusion matrix; **regression model metrics**: R-squared [R<sup>2</sup>], mean absolute percentage error [MAPE], mean absolute error [MAE], and root mean square error [RMSE]) & data drift (both overall and feature drift)
 <img src="https://github.com/domoinc/domo-data-science-resources/blob/b7b1cf8e12a1fef47ff28cdb316d300c48b1e629/data_science_accelerators/images/Model%20Insights%20Monitoring.jpg" alt="Image Description">
 
 - **Prediction Explainer page**: displays feature contributions (SHAP values) by row/observation & Partial Dependence Plots (PDP) by observation
