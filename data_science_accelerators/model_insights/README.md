@@ -10,8 +10,18 @@ The Model Insights Accelerator creates a comprehensive dashboard that displays t
 - **Overview page**: displays model name, model type, model class, model train date, insights last update, & model pipeline function
 <img src="https://github.com/domoinc/domo-data-science-resources/blob/b7b1cf8e12a1fef47ff28cdb316d300c48b1e629/data_science_accelerators/images/Model%20Insights%20Overview.jpg" alt="Image Description" width="1000">
 
-- **Monitoring page**: displays current and historical prediction accuracy metrics (**binary classification model metrics**: accuracy, F1, precision, recall, specificity, confusion matrix; **regression model metrics**: R-squared [R<sup>2</sup>], mean absolute percentage error [MAPE], mean absolute error [MAE], and root mean square error [RMSE]) & data drift (both overall and feature drift)
-<img src="https://github.com/domoinc/domo-data-science-resources/blob/b7b1cf8e12a1fef47ff28cdb316d300c48b1e629/data_science_accelerators/images/Model%20Insights%20Monitoring.jpg" alt="Image Description">
+- **Monitoring page**:
+    - Displays current and historical prediction accuracy metrics
+        - Metrics displayed for *binary classification models*: accuracy, F1, precision, recall, specificity, confusion matrix
+        - Metrics displayed for *regression models*: R-squared [R<sup>2</sup>], mean absolute percentage error [MAPE], mean absolute error [MAE], & root mean square error [RMSE])
+    - Displays data drift (both overall & feature drift)
+
+      *Monitoring page for binary classification model (left image below) & monitoring page for regression model (right image below)*
+
+                                                                      
+  
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/b7b1cf8e12a1fef47ff28cdb316d300c48b1e629/data_science_accelerators/images/Model%20Insights%20Monitoring.jpg" alt="Image Description" width="500"> <img src="https://github.com/domoinc/domo-data-science-resources/blob/96d56c1aea8cf33451a13d1d8a7fb161d1a2ae14/data_science_accelerators/images/MI_Regression_Monitoring.jpg" alt="Image Description" width="500"> 
+
 
 - **Prediction Explainer page**: displays feature contributions (SHAP values) by row/observation & Partial Dependence Plots (PDP) by observation
 <img src="https://github.com/domoinc/domo-data-science-resources/blob/4e7f7148a42c0713e1dce5c87ba70d524d971c57/data_science_accelerators/images/Model%20Insights%20Prediction%20Explainer.jpg" alt="Image Description" width="1000">
