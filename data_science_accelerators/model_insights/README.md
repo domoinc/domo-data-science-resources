@@ -26,7 +26,13 @@ The Model Insights Accelerator creates a comprehensive dashboard that displays t
 - **Prediction Explainer page**: displays feature contributions (SHAP values) by row/observation & Partial Dependence Plots (PDP) by observation
 <img src="https://github.com/domoinc/domo-data-science-resources/blob/4e7f7148a42c0713e1dce5c87ba70d524d971c57/data_science_accelerators/images/Model%20Insights%20Prediction%20Explainer.jpg" alt="Image Description" width="1000">
 
-- **Training Performance page**: displays accuracy metrics (accuracy, F1, precision, recall, specificity, confusion matrix) by threshold, ROC Curve, & Precision-Recall Curve. **Note: all of these metrics are based on your training data.** 
+- **Training Performance page**:
+    - Displays accuracy metrics **based on your training data.** 
+        - Metrics displayed for *binary classification models*: accuracy, F1, precision, recall, & specificity by threshold; confusion matrix; ROC Curve; Precision-Recall Curve.
+        - Metrics displayed for *regression models*: R-squared [R<sup>2</sup>], mean absolute percentage error [MAPE], mean absolute error [MAE], & root mean square error [RMSE])
+      
+ *Training Performance page for binary classification model* 
+
 <img src="https://github.com/domoinc/domo-data-science-resources/blob/4e7f7148a42c0713e1dce5c87ba70d524d971c57/data_science_accelerators/images/Model%20Insights%20Training%20Performance.jpg" alt="Image Description">
 
 - **Feature Importance page**: displays overall feature importance, feature dependence, correlations between features, & Variance Inflation Factors (VIF)
