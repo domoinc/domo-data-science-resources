@@ -2,6 +2,11 @@
 
 # Data Anonymizer Accelerator
 
+## Table of Contents
+- [Overview](#overview)
+- [Instructions](#instructions)
+- [Questions](#questions)
+
 ## Overview
 
 The Data Anonymizer Accelerator creates an anonymized version of your dataset. The anonymized dataset maintains the aggregate characteristics of your dataset (i.e., correlations between and distributions of variables) without revealing information about observations within your dataset
@@ -32,5 +37,5 @@ Feature distributions in the anonymized dataset (red) vs. original dataset (blue
 6. Open the ‘anonymizer’ folder and select the ```anonymizer_v1.0.6.ipynb``` notebook file. The notebook should open in the main work area. Proceed to follow the steps outlined in the notebook to use the data anonymizer.
 7. If you have successfully created an anonymized version of your dataset, that anonymized dataset should be available in the DataSets section of your Domo instance. The default name of the anonymized dataset is ‘Anonymized Data’.
 
-## Questions?
+## Questions
 Contact datascienceSME@domo.com
