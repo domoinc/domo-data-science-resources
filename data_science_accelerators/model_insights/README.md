@@ -6,6 +6,9 @@
 
 - [Requirements](#requirements)
 - [Overview](#overview)
+- [Walkthrough Video](#walkthrough-video)
+- [Instructions](#instructions)
+- [Questions](#questions)
 
 
 ## Requirements
@@ -59,5 +62,5 @@ Watch this [walkthrough video](https://drive.google.com/file/d/1C7ssyocGBzC-ahXO
 7. Follow instructions in [walkthrough video](https://drive.google.com/file/d/1C7ssyocGBzC-ahXOCMODI8acta28yPHY/view).
 
 
-## Questions?
+## Questions
 Contact datascienceSME@domo.com
