@@ -3,7 +3,7 @@
 # Model Insights Accelerator
 
 ## Requirements
-The Model Insights Accelerator currently supports the use of Regression and Binary Classification Models. The tool requires a pickled (saved) model, training dataset (data upon which the pickled model was built), and a live dataset (data for which predictions will or have been made).
+The Model Insights Accelerator currently supports the use of regression, binary classification, and multiclass classification models. The tool requires a pickled (saved) model, training dataset (data upon which the pickled model was built), and a live dataset (data for which predictions will or have been made).
 
 ## Overview 
 The Model Insights Accelerator creates a comprehensive dashboard that displays the following model insights: 
