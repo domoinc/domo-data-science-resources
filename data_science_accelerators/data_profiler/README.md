@@ -3,6 +3,12 @@
 
 # Data Profiler Accelerator
 
+## Table of Contents
+- [Overview](#overview)
+- [Video Demo](#video-demo)
+- [Instructions](#instructions)
+- [Questions](#questions)
+
 ## Overview 
 The Data Profiler Accelerator conducts an automated exploratory analysis of all variables in your dataset and then creates a Domo dashboard, which can include the following types of cards: 
 - Correlation matrix card that shows the correlations between variables
@@ -101,5 +107,5 @@ This widget creates line charts for a selected variable vs other variables in yo
 
 
 
-## Questions?
+## Questions
 Contact datascienceSME@domo.com
