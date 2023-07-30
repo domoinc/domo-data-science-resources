@@ -44,7 +44,7 @@ The Model Insights Accelerator creates a comprehensive dashboard that displays t
 Watch this [walkthrough video](https://drive.google.com/file/d/1C7ssyocGBzC-ahXOCMODI8acta28yPHY/view) which shows how to prepare for and use the Model Insights Accelerator.
 
 ## Instructions
-1. Download ```.tar``` file [here](https://github.com/domoinc/domo-data-science-resources/blob/main/data_science_accelerators/model_insights/model_insights.tar) (click “View raw” or “Download”).
+1. Download ```.tar``` file [here](https://github.com/domoinc/domo-data-science-resources/blob/f42f4af7bb108be36dc37097bbd75d29791b5c48/data_science_accelerators/model_insights/model_insights_v1.0.4.tar) (click “View raw” or “Download”).
 2. In your Domo instance, create a Jupyter workspace that uses a **Python** kernel. See [here](https://domo-support.domo.com/s/article/36004740075?language=en_US#creating_workspace) for additional help.
 3. Start/run the Jupyter workspace created in step 2. See [here](https://domo-support.domo.com/s/article/36004740075?language=en_US#running_workspace) for additional help.
 4. In your running Jupyter workspace, upload the ```.tar``` file downloaded in step 1 by selecting the **Upload Files** button located in the left panel of the workspace. 
