@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Overview](#overview)
+- [Video Demo](#video-demo)
 - [Instructions](#instructions)
 - [Questions](#questions)
 
@@ -25,8 +26,8 @@ Feature distributions in the anonymized dataset (red) vs. original dataset (blue
 
 <img src="https://github.com/domoinc/domo-data-science-resources/blob/c4d0bc534d42175cd74c112a30a44644d96f7427/data_science_accelerators/images/data_anonymizer_feature-dist.png" alt="Image Description" width="900">
 
-
-
+## Video Demo
+[Video Demo of Data Anonymizer](https://www.youtube.com/live/Hymy521A7l4?si=cyq74IZ7c1UricBy&t=958)
 
 ## Instructions 
 1. Download the ```anonymizer_v1.0.6.tar``` file by going [here](https://github.com/domoinc/domo-data-science-resources/blob/main/data_science_accelerators/data_anonymizer/anonymizer_v1.0.6.tar)
