@@ -10,6 +10,8 @@
 
 ## Overview
 
+[Video Overview](https://www.youtube.com/live/Hymy521A7l4?si=S9iKKV_L_wUGCsFq&t=705)
+
 The Data Anonymizer Accelerator creates an anonymized version of your dataset. The anonymized dataset maintains the aggregate characteristics of your dataset (i.e., correlations between and distributions of variables) without revealing information about observations within your dataset
 
 <img src="https://github.com/domoinc/domo-data-science-resources/blob/cc6e934e4a88c5692a6ad2128e5d47da2aa125e5/data_science_accelerators/images/data_anonymizer_anon-vs-original-data.png" alt="Image Description" width="500">
