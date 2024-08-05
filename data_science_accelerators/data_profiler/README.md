@@ -29,7 +29,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 ## Instructions
 
 ### Step 1: Set-Up
-1a. Download the ```DataProfilerGUI_v5.ipynb``` notebook file by going [here](https://github.com/domoinc/domo-data-science-resources/blob/main/data_science_accelerators/data_profiler/DataProfilerGUI_v5.ipynb)
+1a. Download the ```DataProfilerGUI_v6.ipynb``` notebook file by going [here](https://github.com/domoinc/domo-data-science-resources/blob/main/data_science_accelerators/data_profiler/DataProfilerGUI_v5.ipynb)
 
 1b. In your Domo instance, create a Jupyter workspace that uses a **Python** kernel. See [here](https://domo-support.domo.com/s/article/36004740075?language=en_US#creating_workspace) for additional help.
 
