@@ -79,7 +79,7 @@ Below the Login widget in your notebook file, you should see four other widgets 
 * *Validation Flow:* Sets up a validation dataflow and accompanying webform that can be used to validate incoming data (based on the criterea of the webform)
 * *Model Flow:* Sets up a dataflow with a simple model using the Scripting Tiles. Similar to the Feature Engineering Flow, this is more of a template for you to edit afterwards -->
 
-<img src="https://github.com/domoinc/domo-data-science-resources/blob/b417cb99fa666322b7df72056bf6dbcb92b6aeb1/data_science_accelerators/images/data_profiler_step3b.png" alt="Image Description" width="500">
+<img src="https://github.com/domoinc/domo-data-science-resources/blob/main/data_science_accelerators/images/data_profiler_step3b.png" alt="Image Description" width="500">
 
 
 **3c. Bias Profile Widget** (note: filling in this widget is optional) 
