@@ -19,7 +19,7 @@ The Data Profiler Accelerator conducts an automated exploratory analysis of all 
 
 <img alt="image" src="https://github.com/domoinc/domo-data-science-resources/blob/d97f9a06e3fc22a9f9b08aedd4c2f5438dec7386/data_science_accelerators/images/data_profiler_histograms_barchart.png">
 
-
+Above is an example of a custom dashboard that was created using the cards outputed by the Data Profiler Accelerator
 
 
 ## Video Demo
